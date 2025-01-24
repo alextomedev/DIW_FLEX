@@ -1,0 +1,41 @@
+.container_e1 {
+    background-color: gold;
+}
+
+.container_e2 {
+    background-color: green;
+}
+
+.container_e3 {
+    background-color: greenyellow;
+}
+
+.e1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+}
+
+.e2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+}
+
+.e3 {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+}
