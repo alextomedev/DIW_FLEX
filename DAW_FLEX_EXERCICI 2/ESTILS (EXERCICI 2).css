@@ -1,0 +1,18 @@
+.el {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+}
+
+.container {
+    background-color: rgb(225, 225, 225);
+    border: 1px solid black;
+}
+
+.green {
+    background-color: green;
+}
