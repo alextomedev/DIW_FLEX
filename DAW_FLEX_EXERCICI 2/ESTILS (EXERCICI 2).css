@@ -1,3 +1,7 @@
+h2 {
+    font-family:'Courier New', Courier, monospace;
+}
+
 .el {
     background-color: rgba(255, 255, 255, .5);
     border-radius: 50%;
@@ -8,11 +12,186 @@
     width: 3em;
 }
 
-.container {
-    background-color: rgb(225, 225, 225);
-    border: 1px solid black;
+.gold {
+    background-color: gold;
 }
 
 .green {
     background-color: green;
+}
+
+.yellowgreen {
+    background-color: yellowgreen;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.container {
+    background-color: rgb(225, 225, 225);
+    border: 1px solid black;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+}
+
+/* EXERCICI 2.1 */
+.container2_1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container2_1 > div {
+    width: 25%;
+}
+
+/* EXERCICI 2.2 */
+.container2_2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container2_2 > div {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* EXERCICI 2.3 */
+.container2_3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.container2_3 > div {
+    width: 24.75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* EXERCICI 2.4 */
+.container2_4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 5px;
+    row-gap: 15px;
+}
+
+.container2_4 > div {
+    width: 24.75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2_4 :nth-child(5) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* EXERCICI 2.5 */
+.container2_5 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 5px;
+    row-gap: 15px;
+}
+
+.container2_5 > div {
+    width: 24.75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2_5 :nth-child(5) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2_5 :nth-child(8) {
+    width: 49.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* EXERCICI 2.6 */
+.container2_6 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 5px;
+    row-gap: 15px;
+}
+
+.container2_6 > div {
+    width: 24.75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2_6 :nth-child(5) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2_6 :nth-child(8) {
+    width: 49.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2_6 .img {
+    width: 25vh;
+    object-fit: fill;
+}
+
+.container2_6 :nth-child(7) {
+    background-color: rgb(255, 255, 255);
+}
+
+/* EXERCICI 2.7 */
+.container2_7 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.container2_7 > div {
+    height: 24.45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2_7 :nth-child(9) {
+    height: 100%;
 }
