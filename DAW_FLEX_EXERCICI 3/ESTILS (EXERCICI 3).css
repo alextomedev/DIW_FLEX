@@ -1,0 +1,169 @@
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.purple {
+    background-color: rgb(255, 180, 255);
+}
+
+.green {
+    background-color: rgb(150, 255, 150);
+}
+
+.orangered {
+    background-color: rgb(255, 185, 160);
+}
+
+.brown {
+    background-color: rgb(175, 255, 240);
+}
+
+.blue {
+    background-color: rgb(190, 190, 255);
+}
+
+
+/* EXERCICI 3.1 */
+.container_3_1 {
+    background-color: rgb(225, 225, 225);
+    border: 1px solid black;
+    height: calc(7.5vh * 5);
+    display: flex;
+    flex-direction: column;
+}
+
+.container_3_1 div {
+    height: 7.5vh;
+    text-align: center;
+    line-height: 7.5vh;
+}
+
+.container_3_1 a {
+    font-family: 'Arial';
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* EXERCICI 3.2 */
+.container_3_2 {
+    background-color: rgb(225, 225, 225);
+    border: 1px solid black;
+    width: 100%;
+    height: calc(7.5vh * 5);
+    display: flex;
+    flex-direction: row;
+}
+
+.container_3_2 div {
+    flex-grow: 1;
+    height: 7.5vh;
+    text-align: center;
+    line-height: 7.5vh;
+}
+
+.container_3_2 a {
+    font-family: 'Arial';
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* EXERCICI 3.3 */
+.container_3_3 {
+    background-color: rgb(225, 225, 225);
+    border: 1px solid black;
+    width: 100%;
+    height: calc(7.5vh * 5);
+    display: flex;
+    flex-direction: row;
+}
+
+.container_3_3 div {
+    flex-grow: 1;
+    height: 7.5vh;
+    text-align: center;
+    line-height: 7.5vh;
+}
+
+.container_3_3 a {
+    font-family: 'Arial';
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.container_3_3 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* EXERCICI 3.4 */
+.container_3_4 {
+    background-color: rgb(225, 225, 225);
+    border: 1px solid black;
+    width: 100%;
+    height: calc(7.5vh * 5);
+    display: flex;
+    flex-direction: row;
+}
+
+.container_3_4 div {
+    flex-grow: 1;
+    height: 7.5vh;
+    text-align: center;
+    line-height: 7.5vh;
+}
+
+.container_3_4 a {
+    display: block;
+    font-family: 'Arial';
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.container_3_4 div:hover a {
+    color: red;
+    text-decoration: underline;
+}
+
+/* EXERCICI 3.5 */
+.container-main_3_5 {
+    background-color: rgb(225, 225, 225);
+    border: 1px solid black;
+    width: 100%;
+    height: 7.5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.el-menu {
+    background-color: green;
+    width: fit-content;
+    line-height: 7.5vh;
+    width: 10%;
+    text-align: center;
+}
+
+.container_3_5 {
+    display: flex;
+    width: 75%;
+}
+
+.container_3_5 div {
+    flex: 1;
+    height: 7.5vh;
+    width: fit-content;
+    text-align: center;
+    line-height: 7.5vh;
+    justify-content: space-evenly;
+}
+
+.container_3_5 a {
+    display: block;
+    font-family: 'Arial';
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.container_3_5 div:hover a {
+    color: red;
+    text-decoration: underline;
+}

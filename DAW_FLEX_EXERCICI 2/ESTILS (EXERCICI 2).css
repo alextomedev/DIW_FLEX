@@ -92,7 +92,7 @@ h2 {
 }
 
 .container2_4 > div {
-    width: 24.75%;
+    width: calc(25% - 5px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +116,7 @@ h2 {
 }
 
 .container2_5 > div {
-    width: 24.75%;
+    width: calc(25% - 5px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +130,7 @@ h2 {
 }
 
 .container2_5 :nth-child(8) {
-    width: 49.5%;
+    width: calc(50% - 5px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,7 +147,7 @@ h2 {
 }
 
 .container2_6 > div {
-    width: 24.75%;
+    width: calc(25% - 5px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +161,7 @@ h2 {
 }
 
 .container2_6 :nth-child(8) {
-    width: 49.5%;
+    width: calc(50% - 5px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,7 +186,7 @@ h2 {
 }
 
 .container2_7 > div {
-    height: 24.45%;
+    height: calc(25% - 5px);
     display: flex;
     justify-content: center;
     align-items: center;
